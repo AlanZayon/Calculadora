@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+.calculadora{
+    background-color: black;
+    width: 20rem;
+    height: 30rem;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.result{
+    width: 80%;
+    height: 2.5rem;
+    text-align: right;
+    padding-top: 10px;
+    background-color: aliceblue;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.simbolos{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+.botoes{
+    width: 80%;
+    padding-bottom: 20px;
+}
+.botao{
+    text-align: center;
+    cursor: pointer;
+    color: aliceblue;
+}
+.operacao{
+    color: orange;
+}

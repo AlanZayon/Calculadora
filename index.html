@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="resultado">
+            <div class="result" id="result"></div>
+        </div>
+        <div class="simbolos">
+        <table class="botoes">
+            <tr class="operators">
+                <td class="botao operacao" onclick="operation(this)">+</td>
+                <td class="botao operacao" onclick="operation(this)">-</td>
+                <td class="botao operacao" onclick="operation(this)">&times;</td>
+                <td class="botao operacao" onclick="operation(this)">&divide;</td>
+                <td class="botao operacao" onclick="percentage()">%</td>
+            </tr>
+            <tr class="numbers">
+                <td class="botao" onclick="number(this)">7</td>
+                <td class="botao" onclick="number(this)">8</td>
+                <td class="botao" onclick="number(this)">9</td>
+                <td class="botao operacao" id="lastClear" onclick="lastClea()"><</td>
+            </tr>
+            <tr class="numbers">
+                <td class="botao" onclick="number(this)">4</td>
+                <td class="botao" onclick="number(this)">5</td>
+                <td class="botao" onclick="number(this)">6</td>
+                <td rowspan="3" class="botao operacao" id="equal" onclick="equaly()">=</td>
+            </tr>
+            <tr class="numbers">
+                <td class="botao" onclick="number(this)">1</td>
+                <td class="botao" onclick="number(this)">2</td>
+                <td class="botao" onclick="number(this)">3</td>
+                
+            </tr>
+            <tr class="numbers">
+                <td class="botao" onclick="number(this)">0</td>
+                <td class="botao" onclick="number(this)">.</td>
+                <td class="botao operacao" id="clear" onclick="clea()">C</td>
+            </tr>
+        </div>
+        </table>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
