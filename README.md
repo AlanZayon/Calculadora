@@ -13,4 +13,4 @@ Essse projeto faz parte do meu portifólio pessoal, segue o links de acesse ao p
 
 Linkedin: https://www.linkedin.com/in/alan-zayon-247838257/
 
-Projeto: [https://alanzayon.github.io/Primeiro-Site/](https://alanzayon.github.io/Calculadora/)
+Projeto: [https://alanzayon.github.io/Calculadora/](https://alanzayon.github.io/Calculadora/)
